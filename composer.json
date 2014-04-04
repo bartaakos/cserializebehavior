@@ -1,0 +1,21 @@
+{
+    "name": "bartaakos/cserializebehavior",
+    "description": "CSerializeBehavior by Kenrick Buchanan",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Akos Barta",
+            "email": "brta.akos@gmail.com",
+            "homepage": "https://github.com/bartaakos"
+        },
+        {
+            "name": "Kenrick Buchanan",
+            "email": "nsbucky@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii": ">=1.1.14"
+    },
+    "minimum-stability": "dev"
+}
