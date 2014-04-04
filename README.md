@@ -5,3 +5,15 @@
 @license http://www.yiiframework.com/license/
 
 CSerializeBehavior allows a model to specify some attributes to be arrays and serialized upon save and unserialized after a Find() function is called on the model.
+
+<code>
+public function behaviors()
+{
+    return array(
+        'CSerializeBehavior' => array(
+            'class' => 'application.behaviors.CSerializeBehavior',
+            'serialAttributes' => array('validator_options'),
+        )
+    );
+}
+</code>
