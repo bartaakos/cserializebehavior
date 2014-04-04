@@ -6,7 +6,7 @@
 
 CSerializeBehavior allows a model to specify some attributes to be arrays and serialized upon save and unserialized after a Find() function is called on the model.
 
-<code>
+<pre>
 public function behaviors()
 {
     return array(
@@ -16,4 +16,4 @@ public function behaviors()
         )
     );
 }
-</code>
+</pre>
