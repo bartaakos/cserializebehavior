@@ -11,7 +11,7 @@ public function behaviors()
 {
     return array(
         'CSerializeBehavior' => array(
-            'class' => 'vendor.bartaakos.CSerializeBehavior',
+            'class' => 'vendor.bartaakos.cserializebehavior.CSerializeBehavior',
             'serialAttributes' => array('validator_options'),
         )
     );

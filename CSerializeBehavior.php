@@ -88,6 +88,9 @@ class CSerializeBehavior extends CActiveRecordBehavior
                 && is_scalar($_att)
             ) {
                 $a = @json_decode($_att, true);
+                if($a == null) {
+                    $a = unserialize($_att);
+                }
                 if ($a !== false) {
                     $this->getOwner()->$attribute = $a;
                 } else {
